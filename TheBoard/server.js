@@ -35,5 +35,5 @@ app.use (express.static(__dirname + "/public"));
 controllers.init(app);
 
 var server = http.createServer( app );
-
-server.listen( 3000 );
+var port = process.env.PORT || 3030;
+server.listen( port );

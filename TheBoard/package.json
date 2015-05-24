@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "description": "TheBoard based on sticky board",
   "main": "server.js",
+  "engines": {
+	"node": "0.12.x",
+	"npm": "2.9.x",
+  },
   "author": {
     "name": "Ali Fathieh",
     "email": ""
-  },
+  }
   "dependencies": {
     "body-parser": "^1.12.4",
     "connect-flash": "^0.1.1",
