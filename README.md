@@ -1,5 +1,7 @@
 # sticky-note
 This is a simple project that I do to learn node.js
+# Live demonstration
+https://sticky-note2015.herokuapp.com
 
 # How to install
 - install mongodb
